@@ -51,7 +51,7 @@
     
     //show the mobile menu
     function showMenu($this){
-      $this.hide('display', 'none');
+      $this.css('display', 'none');
       $('#mobileMenu_'+$this.attr('id')).show();
     }
     
